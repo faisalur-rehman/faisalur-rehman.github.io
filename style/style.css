@@ -1,0 +1,39 @@
+.active {
+  color: white;
+  border: 1px solid whitesmoke;
+  background-color: rgb(68, 68, 68);
+}
+.nav-item {
+  border: 1px solid gray;
+  margin-right: 10px;
+}
+.background {
+  background-image: url(./photos/bg-1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 500px;
+  background-attachment: fixed;
+}
+.background > h2 {
+  padding-top: 200px;
+}
+.background > p {
+  font-size: 25px;
+}
+.row {
+  margin: 75px auto;
+  width: 75%;
+}
+.row .card {
+  margin-bottom: 50px;
+}
+.url {
+  background-image: url(./photos/bg-2.jpg);
+  height: 300px;
+}
+.url > h2 {
+  padding-top: 100px;
+}
+.url > p {
+  font-size: unset;
+}
